@@ -49,6 +49,7 @@ body {
     /* background: chartreuse; */
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 button {
     font-size: 14px;
@@ -56,5 +57,9 @@ button {
     font-family: font-family: 'Roboto Mono', monospace;
 }
 button:hover {
-    
+    background-color: rgb(34, 37, 46);
+    color: white;
+}
+button:active {
+    background-color: rgb(49, 80, 172);
 }
