@@ -19,7 +19,7 @@ body {
 .head-postcard h1 {
     font-size: 30px;
     padding-left: 1rem;
-    font-family: font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .head-postcard img {
     width: 60px;
@@ -35,8 +35,8 @@ body {
 .body-postcard p {
     padding-right: 15px;
     margin: 0;
-    font-size: 19px;
-    font-family: font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
 }
 .body-postcard input {
     /* background: blueviolet; */
@@ -49,17 +49,19 @@ body {
     /* background: chartreuse; */
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding-top: 0;
 }
 button {
-    font-size: 14px;
+    font-size: 12px;
     background-color: grey;
-    font-family: font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    padding: 2px;
 }
 button:hover {
     background-color: rgb(34, 37, 46);
     color: white;
 }
 button:active {
-    background-color: rgb(49, 80, 172);
+    background-color: rgba(20, 143, 203, 1);
+    color: black;
 }
