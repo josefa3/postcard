@@ -46,9 +46,15 @@ body {
     width: 8rem;
 }
 .footer-postcard {
+    /* background: chartreuse; */
     display: flex;
     justify-content: center;
 }
-
-
-/* {}
+button {
+    font-size: 14px;
+    background-color: grey;
+    font-family: font-family: 'Roboto Mono', monospace;
+}
+button:hover {
+    
+}
