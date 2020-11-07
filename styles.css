@@ -45,6 +45,7 @@ body {
     border-bottom: solid black;
     width: 8rem;
     font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
 }
 .footer-postcard {
     /* background: chartreuse; */
